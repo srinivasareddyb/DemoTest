@@ -53,7 +53,7 @@
                 <Annotation Term="UI.DataPoint" Qualifier="Unit_DQF">
                     <Record>
                         <PropertyValue Property="Value" Path="UnitsInStock"/>
-                        <PropertyValue Property="TargetValue" Int="100"/>
+                        <PropertyValue Property="TargetValue" Int="200"/>
                         <PropertyValue Property="Visualization" EnumMember="UI.VisualizationType/Progress"/>
                     </Record>
                 </Annotation>
