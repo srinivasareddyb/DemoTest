@@ -43,7 +43,19 @@
                             <PropertyValue Property="Value" Path="SupplierID"/>
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
                         </Record>
+                        <Record Type="UI.DataFieldForAnnotation">
+                            <PropertyValue Property="Label" String="Stock"/>
+                            <PropertyValue Property="Target" AnnotationPath="@UI.DataPoint#Unit_DQF"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
                     </Collection>
+                </Annotation>
+                <Annotation Term="UI.DataPoint" Qualifier="Unit_DQF">
+                    <Record>
+                        <PropertyValue Property="Value" Path="UnitsInStock"/>
+                        <PropertyValue Property="TargetValue" Int="100"/>
+                        <PropertyValue Property="Visualization" EnumMember="UI.VisualizationType/Progress"/>
+                    </Record>
                 </Annotation>
             </Annotations>
         </Schema>
